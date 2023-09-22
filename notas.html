@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNES Universidades</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body background="imagens/fundo.png">
+    <header>
+        <img src="./imagens/logo.png" alt="">
+        <nav>
+            <ul id="nav__ul">
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="#">Area do Professor(a)</a></li>
+                <li>|</li>
+                <li><a href="notas.html">Calculo de Notas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <img src="imagens/capa.png" alt="">
+    </header>
+    <main>
+        <h2>Sistema de Calculo de Notas</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit eum accusamus, esse error officiis quod vero.</p>
+        <hr>
+        <div id="container__form">
+            <div id="div__form">
+                <label for="nome">Nome do Aluno:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome do Aluno" class="flim">
+                
+                <label for="nota01">Nota 1&ordf; AV:</label>
+                <input type="text" name="nota01" id="nota01" placeholder="Nota 01" class="flim">
+
+                <label for="nota02">Nota 2&ordf; AV:</label>
+                <input type="text" name="nota02" id="nota02" placeholder="Nota 02" class="flim">
+
+                <button id="media" value="Calcular" onclick="calcularMedia();">Calcular</button>
+            </div>
+            <span id="meu_span"></span>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; todos os direitos reservados 2023 - desenvolvido por: front-end
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
